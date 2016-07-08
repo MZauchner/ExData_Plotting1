@@ -36,7 +36,7 @@ with(data, {
 dev.copy2pdf(device = quartz, file = "plot4.pdf")
 
 #create png
-png(filename="plot3.png")
+png(filename="plot4.png")
 par(mfrow = c(2,2), mar = c(4,4,2,1), oma = c(0,0,2,0))
 with(data, {
   plot(Global_active_power ~ Datetime, type = "l", 
